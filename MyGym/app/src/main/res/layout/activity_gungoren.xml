@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gungoren">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView146"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Güngören Spor Eğitim Merkezi" />
+
+            <TextView
+                android:id="@+id/textView147"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Merkez Mah., Fevzi Çakmak Cad., Kemaliye Sok. No:15, 34164 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView148"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 556 60 77" />
+
+            <Button
+                android:id="@+id/button47"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView149"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eflatun - Bayanlara özel pilates ve spor Salonu / Güngören şubesi" />
+
+            <TextView
+                android:id="@+id/textView150"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Haznedar, Çapa Sk. No:14, 34160 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView151"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0850 304 1082" />
+
+            <Button
+                android:id="@+id/button51"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView152"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nosfit Spor Merkezi - Güngören, Esenler Fitness Spor Salonu - Spa Merkezi" />
+
+            <TextView
+                android:id="@+id/textView153"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Gençosman Mah Orgeneral Eşref Bitlis Cad. Güngörenpark AVM No:8/Güngören, 34165 Esenler/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView154"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 568 86 67" />
+
+            <Button
+                android:id="@+id/button52"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView155"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Slim Fitness" />
+
+            <TextView
+                android:id="@+id/textView156"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Akıncılar, Posta Cd. No:69 D:B, 34160 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView157"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 557 75 46" />
+
+            <Button
+                android:id="@+id/button53"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView158"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Güngören Yeni Akıncılar Spor Kulübü" />
+
+            <TextView
+                android:id="@+id/textView159"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Mareşal Çakmak, Soğanlı Cd. 54/A, 34160 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView160"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0545 942 14 65" />
+
+            <Button
+                android:id="@+id/button56"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView161"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Masist Spor Salonu" />
+
+            <TextView
+                android:id="@+id/textView162"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Merkez, Fevzi Çakmak Cd. 20/C, 34164 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView163"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 462 30 64" />
+
+            <Button
+                android:id="@+id/button57"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView164"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barça Fitness Center" />
+
+            <TextView
+                android:id="@+id/textView165"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Güven, Kale Shopping Center 3.Kat 89, 34160 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView166"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 876 63 63" />
+
+            <Button
+                android:id="@+id/button58"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView168"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tozkoparan Spor Salonu" />
+
+            <TextView
+                android:id="@+id/textView169"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Tozkoparan, Cevat Açıkalın Cad. No:6, 34169 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView170"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 481 27 85" />
+
+            <Button
+                android:id="@+id/button59"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView171"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PowerGym" />
+
+            <TextView
+                android:id="@+id/textView172"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Güven Mahallesi Taşlık Sokak No:20/22 D Block Sızanlar İş Mrkz, D:1, 34160 Güngören" />
+
+            <TextView
+                android:id="@+id/textView173"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 556 00 21" />
+
+            <Button
+                android:id="@+id/button60"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView174"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gym For Life Spor Merkezi" />
+
+            <TextView
+                android:id="@+id/textView175"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Haznedar, Kınalı Cd. No:6, 34165 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView176"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0531 331 97 11" />
+
+            <Button
+                android:id="@+id/button61"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView177"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oxygensports" />
+
+            <TextView
+                android:id="@+id/textView178"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: 15 Üçler Apt Nazım Erten Sk., Green Park Hotel Yanı Abdurrahman Nafiz Gürman Mah Merter, 34173 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView179"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 506 95 53" />
+
+            <Button
+                android:id="@+id/button62"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView180"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Levent Fitness" />
+
+            <TextView
+                android:id="@+id/textView181"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Güneştepe, Soğanlı Cd. No:97 D:B, 34164 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView182"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0530 416 94 29" />
+
+            <Button
+                android:id="@+id/button63"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView183"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aytan Spor Kulübü" />
+
+            <TextView
+                android:id="@+id/textView184"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Merkez, Sanayi Mahallesi Gazi Osman Paşa Caddesi , Uludağ Sk. No:7, 34164 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView185"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 556 40 94" />
+
+            <Button
+                android:id="@+id/button64"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView186"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hurry Inn Hotel Merter Fitness Club" />
+
+            <TextView
+                android:id="@+id/textView187"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Mehmet Nezih Özmen Mah. Nadide Cad. No:62/64, Not: Merter/ Hurry İn Otel, 34173 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView188"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 483 40 44" />
+
+            <Button
+                android:id="@+id/button65"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView189"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Venüs Spor Salonu" />
+
+            <TextView
+                android:id="@+id/textView190"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Mehmet Nesih Özmen, Fatih Cad. Gülsever Sokağı 12/A, 34164 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView191"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 507 15 36" />
+
+            <Button
+                android:id="@+id/button66"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView192"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DEPORTİVO FİTNESS" />
+
+            <TextView
+                android:id="@+id/textView193"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Nine Hatun, Güngören, Çinçindere Cd. D:No.169/B, 34164 Esenler/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView194"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0545 448 91 91" />
+
+            <Button
+                android:id="@+id/button67"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView195"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Daştan Spor Akademisi" />
+
+            <TextView
+                android:id="@+id/textView196"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Haznedar, C, Okul Sk. No:22, 34160 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView197"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0545 817 46 92" />
+
+            <Button
+                android:id="@+id/button68"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView198"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yıldız Teknik Üniversitesi Kapalı Spor Salonu" />
+
+            <TextView
+                android:id="@+id/textView199"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Gençosman, 34165 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 383 22 91" />
+
+            <Button
+                android:id="@+id/button69"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haznedar Çetinkaya Spor Kulübü Derneği" />
+
+            <TextView
+                android:id="@+id/textView202"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Güneştepe, Bahçeler Sok. No:3, 34164 Güngören/Istanbul - Europe" />
+
+            <TextView
+                android:id="@+id/textView203"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 434 38 29" />
+
+            <Button
+                android:id="@+id/button70"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView204"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haznedar Spor Merkezi Kulübü" />
+
+            <TextView
+                android:id="@+id/textView205"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Akıncılar, İnönü Cd. No:66, 34160 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView206"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0532 406 60 66" />
+
+            <Button
+                android:id="@+id/button71"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView207"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nedim Kuşçu Spor Kulübü" />
+
+            <TextView
+                android:id="@+id/textView208"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Gençosman, 9, Uzay Sk., 34165 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView209"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0532 323 59 12" />
+
+            <Button
+                android:id="@+id/button72"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView210"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gym City Spor ve Yaşam Merkezi" />
+
+            <TextView
+                android:id="@+id/textView211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Abdurrahman Nafiz Gürman Mah., General Ali Rıza Gürcan Cd. No:27 D: Blok, 34173 Merter/Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 482 48 88" />
+
+            <Button
+                android:id="@+id/button73"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView213"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pro Life Sporium" />
+
+            <TextView
+                android:id="@+id/textView214"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Haznedar, 34160 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView215"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 556 50 59" />
+
+            <Button
+                android:id="@+id/button74"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView216"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MACFit Merter" />
+
+            <TextView
+                android:id="@+id/textView217"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Abdurrahman Nafiz Gürman Mah. Gen. E-5 Yolu Merter Sapağı,, Bahçelievler Mahallesi, Dumlupınar Caddesi, 34173 Güngören/Bahçelievler/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView218"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: -" />
+
+            <Button
+                android:id="@+id/button75"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView219"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tozpokaran Kapalı Spor Salonu" />
+
+            <TextView
+                android:id="@+id/textView220"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Tozkoparan, 34169 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView221"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 481 27 85" />
+
+            <Button
+                android:id="@+id/button76"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DejavuGym Spor Salonu" />
+
+            <TextView
+                android:id="@+id/textView223"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Merkez mah. cumhuriyet cad. merkez apt. No:4, D:1, 34164 Güngören" />
+
+            <TextView
+                android:id="@+id/textView224"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 642 05 86" />
+
+            <Button
+                android:id="@+id/button77"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView225"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Murat Ekmekçi Spor Kulübü" />
+
+            <TextView
+                android:id="@+id/textView226"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Mareşal Çakmak, Soğanlı Cd. 1/C, 34160 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView227"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 504 00 01" />
+
+            <Button
+                android:id="@+id/button78"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView228"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haznedar Doruk Cimnastik" />
+
+            <TextView
+                android:id="@+id/textView229"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Haznedar, Şevket Dağ Cd. no 62, 34160 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView230"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0555 408 77 77" />
+
+            <Button
+                android:id="@+id/button79"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView231"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estetik Spor Merkezi" />
+
+            <TextView
+                android:id="@+id/textView232"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Haznedar, 34160 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView233"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 561 35 05" />
+
+            <Button
+                android:id="@+id/button80"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView234"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MEHMET YALÇIN SPOR KULÜBÜ" />
+
+            <TextView
+                android:id="@+id/textView235"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Mareşal Çakmak, İnönü Cd. No:137 D:B, 34160 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView236"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0535 502 81 18" />
+
+            <Button
+                android:id="@+id/button81"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView237"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İlbak Gençlik Kick Boks Spor Kulübü" />
+
+            <TextView
+                android:id="@+id/textView238"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Mimar Sinan, 78. Sk. 5/A, 34220 Esenler/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView239"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0532 722 82 44" />
+
+            <Button
+                android:id="@+id/button82"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView240"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Flamingo GYM Bahçelievler" />
+
+            <TextView
+                android:id="@+id/textView241"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Çifte Havuzlar, Eski Londra Asf Cd No: 45, 34180 Bahçelievler/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView242"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 554 02 22" />
+
+            <Button
+                android:id="@+id/button83"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView243"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Be Best Sport Club" />
+
+            <TextView
+                android:id="@+id/textView244"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Güven, Marmara Cd. No:30, 34160 Güngören/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView245"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: -" />
+
+            <Button
+                android:id="@+id/button84"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView246"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="viva city sports club" />
+
+            <TextView
+                android:id="@+id/textView247"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Yenigün, Bağcılar Cd. No:107, 34200 Bağcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView248"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 433 84 36" />
+
+            <Button
+                android:id="@+id/button85"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView249"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gym Haus" />
+
+            <TextView
+                android:id="@+id/textView250"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Soğanlı, Alpay Cd. No:26, 34183 Bahçelievler/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView251"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 506 66 02" />
+
+            <Button
+                android:id="@+id/button86"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView252"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EFOR SPOR MERKEZİ" />
+
+            <TextView
+                android:id="@+id/textView253"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Hürriyet, Güngören Sk. No:7, 34188 Bahçelievler/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView254"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 451 40 37" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".avcilar">
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="500dp"
+        app:layout_constraintBottom_toTopOf="@+id/map"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sporium" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Denizköşkler, Denizköşkler Cd. No:22 D:1, 34315 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 694 98 00" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İBB Spor Kompleksi" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Üniversite, Bağcı Sokağı 1/A, 34320 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 449 91 85" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Avcılar Olimpik Spor Tesisleri" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Gümüşpala, Firuzköy Blv. No:78, 34325 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 428 10 90" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sefa Dosem Spor Kulüpleri Bayan Özel" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Üniversite, Uran Cd. 41/7, 34320 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 690 66 44" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Galaxy Sports Center" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Ambarlı, Cumhuriyet Cd. No:58 D:2b, 34315 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0530 088 62 64" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Avcılar Mi Estilo Fitness Club PelicanMall Avm" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Üniversite Mahallesi Selvi Sokak, E-5 Yanyol Pelican Mall Avm 2. Kat, 34320 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 620 20 97" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Real Şampiyon Spor Salonu" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Merkez, Çiğdem Cd. No: 40 D:1, 34310 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0553 966 36 64" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B-fit Avcilar" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Merkez, Katip Ahmet Sokak  Reşitpaşa Cad. 28/A, 34310 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 695 18 70" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gürel Özgür Spor Salonu" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Merkez, No:, Asya Sk. No:6, 34310 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon:  (0212) 509 77 53" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Orhan Doğan Spor Kulübü" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Merkez, Fırın Sk. No:36, 34310 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 590 99 02" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şampiyon Spor Center" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Merkez, Çiğdem Cd. 40F, 34325 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 694 19 99" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PowerZone Gym" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Gümüşpala, Mutlu Sk. 17a, 34320 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 591 01 09" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Akbulut Gençlik Spor Merkezi" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Mustafa Kemal Paşa, Maraşal Cad. No:3, 34320 Avcılar/İstanbul - Avrupa" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 428 51 77" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Flex Gym" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Cihangir, Ormanlı Cd. 22/A, 34310 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 509 20 00" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kam Fit Gym" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Cihangir, Talatpaşa Cd. 42/B, 34310 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0535 200 09 21" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ece Spor Merkezi" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Merkez, Merkez Cami Sk. No:26 D:C, 34325 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 590 31 41" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For Angel's Fit Club" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Ambarlı, Nehir Sk. No:5A, 34315 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 590 00 50" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Space Gym" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Ambarlı, Cumhuriyet Cad./plaj Yolu Sok. No:7 D:1, 34315 Avcılar/Istanbul - Europe" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 591 51 67" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SEFA DOSEM SPOR KULÜPLERİ" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Mustafa Kemal Paşa, İstiklal Cd. No:54, 34320 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 423 65 12" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tunçel Spor Kulübü" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Merkez, Ahmet Taner Kışlalı Cd. 21/A D:A, 34310 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 590 72 26" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Avcılar İlçe Gençlik ve Spor Merkezi" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Gümüşpala Mah., Alsancak Sok., 34320 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 509 16 83" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Madame Sport Club" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Ambarlı, Dr. Sadık Ahmet Cd. no:254, 34315 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 813 29 09" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İBB Spor Salonu" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Mustafa Kemal Paşa, Mimar Sinan cad. No:84, 34320 Parseller - Avcılar/Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 455 13 00" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vahyettin Yıldırım Spor Kulübü" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Mustafa Kemal Paşa, Ümit Sk. No:135, 34320 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 690 00 47" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Avcılar Olimpik Yüzme Havuzu" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Firuzköy, Bağcı Sokağı No:4, 34310 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0530 379 32 61" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Liva Spor" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Mustafa Kemal Paşa Mah., Karanfil Sok. No:44, 34320 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0553 492 91 43" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Avcılar Atak Spor Kulübü" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Ambarlı, Spor Salonu, Ambarlı İlkokulu, Cumhuriyet Cd. No:25, 34315 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0530 694 52 25" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zin Fit Pilates Stüdyo - Avcılar" />
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Merkez Mah.Merkez Cami Sok.Özdemir pasajı no.25 kat :2, (Medicana Hastanesi yanı), 34310 avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0537 736 37 12" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İ.Ü. Prof.Dr.Turgay Atasu Spor Salonu" />
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Üniversite, 34320 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 440 00 00" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haydar Akın Spor Salonu" />
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Mustafa Kemal Paşa, Hilal Sk. No:73, 34320 Beylikdüzü Osb/Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 423 29 89" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Avcılar Yüzme Kursu - Altınbilek Spor Kulübü" />
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Cihangir, D-100 Güney Yan Yolu No:293, 34310 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 852 42 87" />
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Avcılar Gençlik Merkezi" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Gümüşpala, Alsancak Sk. No:12, 34320 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: (0212) 509 16 83" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ikiz.efsane.gym" />
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Firuzköy, M. Kemal Paşa Cd., 34325 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0533 431 80 14" />
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Akbulut Spor Kulübü" />
+
+            <TextView
+                android:id="@+id/textView101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Mustafa Kemal Paşa, Mareşal Cd. No:1, 34320 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0 544 337 58 58" />
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atik Sosyal Gelişim Gençlik Ve Spor Kulübü" />
+
+            <TextView
+                android:id="@+id/textView104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Üniversite, No:, Birey Sk. No:1, 34320 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: 0507 321 43 41" />
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pilates Is Life Studio" />
+
+            <TextView
+                android:id="@+id/textView107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Merkez, Şamlı Sk. No:46, 34310 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: -" />
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stüdyo Rose Pilates Dans Mix" />
+
+            <TextView
+                android:id="@+id/textView110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Merkez, Şamlı Sk. No:54, 34310 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: -" />
+
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@android:color/black"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gümüşpala Spor Merkezi" />
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres: Gümüşpala, Türkmen Sokak No:4/1, 34320 Avcılar/İstanbul" />
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefon: -" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
